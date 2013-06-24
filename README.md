@@ -111,4 +111,5 @@ For consistency, prefer the following libraries to others that perform the same 
 ### General
 
 * Tables, columns, variables names should always be ``lowercase_with_underscores``.
+* Tables should be plurals of contents, for instance `people` not `person`.
 * Use 2-spaces for indentation.
