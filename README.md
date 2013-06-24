@@ -105,3 +105,10 @@ For consistency, prefer the following libraries to others that perform the same 
 ## Servers
 
 * Environment variables belong in `/etc/environment`. This file should be sourced by cron jobs. (This happens automatically when using `cron.sh`.)
+
+## Databases
+
+### General
+
+* Tables, columns, variables names should always be ``lowercase_with_underscores``.
+* Use 2-spaces for indentation.
