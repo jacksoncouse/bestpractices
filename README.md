@@ -105,6 +105,7 @@ For consistency, prefer the following libraries to others that perform the same 
 ## Servers
 
 * Environment variables belong in `/etc/environment`. This file should be sourced by cron jobs. (This happens automatically when using `cron.sh`.)
+* Data for services provided by this system belong in `/srv`.
 
 ## Databases
 
