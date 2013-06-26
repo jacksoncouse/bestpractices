@@ -2,7 +2,7 @@
 
 The contents of this repository are released under a [Creative Commons CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/deed.en_US). 
 
-**Note:** This guide was adapted from the [NPR Apps Best Practices Guide](https://github.com/nprapps/bestpractices), and references the NPR [app-template](http://github.com/nprapps/app-template) in several places. 
+**Note:** This guide was adapted from the [NPR Apps Best Practices Guide](https://github.com/nprapps/bestpractices), and references the NPR [app-template](http://github.com/nprapps/app-template) in several places. We are in the process of creating our own [app-template](http://github.com/amnestyinternational/app-template) for Amnesty International.
 
 ## Projects
 
