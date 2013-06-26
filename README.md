@@ -107,10 +107,27 @@ For consistency, prefer the following libraries to others that perform the same 
 * Environment variables belong in `/etc/environment`. This file should be sourced by cron jobs. (This happens automatically when using `cron.sh`.)
 * Data for services provided by this system belong in `/srv`.
 
+
+
 ## Databases
 
-### General
+### Naming conventions
 
-* Tables, columns, variables names should always be ``lowercase_with_underscores``.
+#### General
+
+* Tables, columns, variables and view names should always be ``lowercase_with_underscores``.
+* Naming order should be ``general_specific`` for instance, ``tweets_canadian``.
+
+#### Tables
+
+* Tables should have `tbl_` prefix.
 * Tables should be plurals of contents, for instance `people` not `person`.
+
+#### Views
+
+* Views should not have a prefix.
+
+### Queries
+
 * Use 2-spaces for indentation.
+* Keywords, clauses, and operators should always be uppercase.
