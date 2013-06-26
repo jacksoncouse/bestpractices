@@ -154,6 +154,11 @@ For consistency, prefer the following libraries to others that perform the same 
 
 * Views should not have a prefix.
 
+#### Reports
+
+* Reports should have standard English conventions for capitalisation and spacing.
+* Reports should be named ``team, general to specific``, for instance ``Monthly giving campaign code details``
+
 ### Queries
 
 * Use 2-spaces for indentation.
