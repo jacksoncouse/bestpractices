@@ -1,4 +1,4 @@
-# AICES Best Practices and Coding Conventions
+# Amnesty International Canada Best Practices and Coding Conventions
 
 The contents of this repository are released under a [Creative Commons CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/deed.en_US). 
 
