@@ -25,14 +25,14 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * When a function operates on a variable, their naming should be consistent. If working with `updates` then `process_updates()`, don't `process_changes()`. 
 * Maintain naming conventions between iterables and their iterators: `for update in updates`, not `for record in updates`.
 
-|: Prefer... :|: to... :|
-|: --------- :|: ----- :|
-|: create :|: insert, add, new :|
-|: update :|: change, edit :|
-|: delete :|: remove, purge :|
-|: setup :|: init :|
-|: make :|: build :|
-|: wrapper :|: wrap :| 
+| Prefer...| To... |
+| --------- | ----- |
+| create | insert, add, new |
+| update | change, edit |
+| delete | remove, purge |
+| setup | init |
+| make | build |
+| wrapper | wrap | 
 
 (Note: sometimes these words don't mean the same thing, but when they do, prefer the former.)
 
