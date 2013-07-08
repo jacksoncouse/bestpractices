@@ -25,15 +25,14 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * When a function operates on a variable, their naming should be consistent. If working with `updates` then `process_updates()`, don't `process_changes()`. 
 * Maintain naming conventions between iterables and their iterators: `for update in updates`, not `for record in updates`.
 
-<table>
-  <tr><th>Prefer...</th><th>to...</th></tr>
-  <tr><td>create</td><td>insert, add, new</td></tr>
-  <tr><td>update</td><td>change, edit</td></tr>
-  <tr><td>delete</td><td>remove, purge</td></tr>
-  <tr><td>setup</td><td>init</td></tr>
-  <tr><td>make</td><td>build</td></tr>
-  <tr><td>wrapper</td><td>wrap</td></tr>
-</table>  
+|: Prefer... :|: to... :|
+|: --------- :|: ----- :|
+|: create :|: insert, add, new :|
+|: update :|: change, edit :|
+|: delete :|: remove, purge :|
+|: setup :|: init :|
+|: make :|: build :|
+|: wrapper :|: wrap :| 
 
 (Note: sometimes these words don't mean the same thing, but when they do, prefer the former.)
 
