@@ -8,6 +8,17 @@ The contents of this repository are released under a [Creative Commons CC BY 3.0
 
 ### READMEs
 
+Every README should include:
+
+1. A quick project overview
+1. Information about the directory structure
+1. How to get started developing
+1. Code promotion workflow
+1. Environments
+1. Links to where to find more information.
+
+Plus:
+
 * Document steps to setup the project from a blank slate. (Data loading, etc.) This should include paths to files stored in Dropbox when relevant.
 * Document any required environment variables. If these are secrets they should also be stored in the team Dropbox.
 * Document any cron jobs that must be installed on the servers. In the app-template this just means using the `crontab` file in the project root.
