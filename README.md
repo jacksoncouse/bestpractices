@@ -11,6 +11,10 @@ The contents of this repository are released under a [Creative Commons CC BY 3.0
 2. [Sites and Apps](#sites-and-apps)
 3. [HTML and CSS](#html-and-css)
 4. [Javascript](#javascript)
+5. [VErsion control](#version-control)
+6. [Servers](#servers)
+7. [Databases](#databases)
+8. 
 
 ## Repositories
 
