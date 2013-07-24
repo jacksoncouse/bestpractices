@@ -1,4 +1,5 @@
-# Amnesty International Canada Best Practices and Coding Conventions
+![Amnesty International logotype and logo banner](http://amnesty.ca/sites/default/files/ai-lockup-2c-banner.png)
+# Best Practices and Coding Conventions
 
 The contents of this repository are released under a [Creative Commons CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/deed.en_US). 
 
