@@ -11,10 +11,11 @@ The contents of this repository are released under a [Creative Commons CC BY 3.0
 2. [Sites and Apps](#sites-and-apps)
 3. [HTML and CSS](#html-and-css)
 4. [Javascript](#javascript)
-5. [VErsion control](#version-control)
+5. [Version control](#version-control)
+6. [Ruby](#ruby)
+7. [Python](#python)
 6. [Servers](#servers)
 7. [Databases](#databases)
-8. 
 
 ## Repositories
 
@@ -106,7 +107,7 @@ For consistency, prefer the following libraries to others that perform the same 
 * Whenever possible constrain jQuery DOM lookups within the scope of a cached element. For example, ``$electris.find(".candidate")`` is preferable to ``$(".candidate")``.
 * Always use [on](http://api.jquery.com/on/), never [bind](http://api.jquery.com/bind/), [delegate](http://api.jquery.com/delegate/) or [live](http://api.jquery.com/live/). ``on`` should also be preferred to "verb events", such as [click](http://api.jquery.com/click/).
 
-
+## Ruby
 
 ## Python
 
