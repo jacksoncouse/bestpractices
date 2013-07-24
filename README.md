@@ -147,6 +147,7 @@ Use [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html):
 1. Once it is merged and pushed to ‘master’, you can and should deploy immediately
 
 Github flow [in the browser](https://github.com/blog/1557-github-flow-in-the-browser):
+
 1. Create a branch right from the repository.
 1. Create, edit, and delete files, rename them, or move them around.
 1. Send a pull request from your branch with your changes to kick off a discussion.
