@@ -24,9 +24,9 @@ Plus:
 * Document any cron jobs that must be installed on the servers. In the app-template this just means using the `crontab` file in the project root.
 * Document any server dependencies that are not part of our standard stack. This includes documenting how to install them. Whenever feasible this documentation should be in the form of `fab` commands.
 
-## Naming conventions
+## Sites and Apps
 
-### Sites and Apps
+### Naming conventions
 Naming things (variables, files, classes, etc.) consistently and intuitively is one of the hardest problems in computer science. To make it easier, follow these conventions:
 
 * Always proceed from more general to more specific. For example, ``widget-skinny`` is better than ``skinny-widget``.
@@ -127,16 +127,33 @@ For consistency, prefer the following libraries to others that perform the same 
 * Imports should be organized into three blocks: stdlib modules, third-party modules and our own modules. Each group should be alphabetized.
 * Avoid ``from foo import *``. It is the mindkiller.
 
+## Version control
 
+### Git
 
-## git
-
-* Development of major features should happen on separate branches which periodically merge *from* ``master`` until development of the feature is complete.
-* A ``stable`` branch should always be present and should merge *from* ``master``, only when deploying to production.
 * Don't store binary files (comps, databases) in the repository.
 * If a binary object needs to be shared then store it in Dropbox or on S3. If it is part of the setup process (e.g. a database backup) then use fabric commands to read and write it.
 * **Never, ever store passwords, keys or credentials in any repository.** (Use environment variables instead.)
 
+### Github
+
+Use [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html): 
+
+1. Anything in the master branch is deployable
+1. To work on something new, create a descriptively named branch off of master (ie: new-oauth2-scopes)
+1. Commit to that branch locally and regularly push your work to the same named branch on the server
+1. When you need feedback or help, or you think the branch is ready for merging, open a pull request
+1. After someone else has reviewed and signed off on the feature, you can merge it into master
+1. Once it is merged and pushed to ‘master’, you can and should deploy immediately
+
+Github flow [in the browser](https://github.com/blog/1557-github-flow-in-the-browser):
+1. Create a branch right from the repository.
+1. Create, edit, and delete files, rename them, or move them around.
+1. Send a pull request from your branch with your changes to kick off a discussion.
+1. Continue making changes on your branch as needed, updating the pull request automatically.
+1. Once the branch is ready to go, the pull request can be merged using the big green button.
+1. Branches can then be tidied up using the delete buttons in the pull request, or on the branches page.
+1. Repeat.
 
 
 ## Servers
