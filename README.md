@@ -7,9 +7,9 @@ The contents of this repository are released under a [Creative Commons CC BY 3.0
 
 ## Contents
 
-1. [Repositories](/bestpractices#readmes)
-2. [Sites and Apps](/bestpractices#sites-and-apps)
-3. [HTML and CSS](/bestpractices#html--css)
+1. [Repositories](#readmes)
+2. [Sites and Apps](#sites-and-apps)
+3. [HTML and CSS](#html-and-css)
 4. [Javascript](#javascript)
 
 ## Repositories
@@ -60,7 +60,7 @@ Please see database section below
 
 
 
-## HTML & CSS
+## HTML and CSS
 
 * Element IDs and class names should always be ``lowercase-with-dashes``.
 * Multi-part IDs and class names should always proceed from more general to more specific. For example, ``electris-skinny`` is better than ``skinny-electris``.
