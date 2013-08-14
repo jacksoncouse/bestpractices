@@ -146,7 +146,7 @@ For consistency, prefer the following libraries to others that perform the same 
 
 * Don't store binary files (comps, databases) in the repository.
 * If a binary object needs to be shared then store it in Dropbox or on S3. If it is part of the setup process (e.g. a database backup) then use fabric commands to read and write it.
-* **Never, ever store passwords, keys or credentials in any repository.** (Use environment variables instead.)
+* **Never, ever store passwords, keys or credentials in any repository.** (Use environment variables instead and [.gitignore](https://help.github.com/articles/ignoring-files) for configuration files.)
 
 ### Github
 
