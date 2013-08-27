@@ -60,10 +60,6 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 
 (Note: sometimes these words don't mean the same thing, but when they do, prefer the former.)
 
-### Databases
-Please see database section below
-
-
 
 ## HTML and CSS
 
