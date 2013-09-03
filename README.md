@@ -66,7 +66,8 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * Element IDs and class names should always be ``lowercase-with-dashes``.
 * Multi-part IDs and class names should always proceed from more general to more specific. For example, ``electris-skinny`` is better than ``skinny-electris``.
 * Put modals and JST templates in their own files. In the app-template these belong in the `templates` and `jst` directories, respectively. When this isn't feasible, put modals in the page footer first, followed by inline javascript templates.
-
+* Prefer [HAML](http://haml.info/) over ERB for HTML templates
+* Prefer [SASS](http://sass-lang.com/) over LESS for CSS templates
 
 
 ## Javascript
@@ -104,6 +105,21 @@ For consistency, prefer the following libraries to others that perform the same 
 * Always use [on](http://api.jquery.com/on/), never [bind](http://api.jquery.com/bind/), [delegate](http://api.jquery.com/delegate/) or [live](http://api.jquery.com/live/). ``on`` should also be preferred to "verb events", such as [click](http://api.jquery.com/click/).
 
 ## Ruby
+
+### Baseline
+- [Community](https://github.com/bbatsov/ruby-style-guide/) coding style and best-practices
+- [TomDoc](http://tomdoc.org/) for documentation
+
+### Libraries
+
+For consistency, prefer the following libraries to others that perform the same tasks:
+
+- [Ruby Version Manager](https://rvm.io/) for keeping projects organized
+- [Bundler](http://bundler.io/) for keeping gems organized and up to date
+- [Casien](http://www.caseincms.com/) for content management backends
+- [Middleman](http://middlemanapp.com/) for generating static sites 
+- [Padrino](http://www.padrinorb.com/) for light web apps **or** [Rails](http://rubyonrails.org/) for heavy web apps
+- [Capistrano](http://www.capistranorb.com/) for automation and deployment
 
 ## Python
 
