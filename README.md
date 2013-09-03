@@ -67,7 +67,8 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * Multi-part IDs and class names should always proceed from more general to more specific. For example, ``electris-skinny`` is better than ``skinny-electris``.
 * Put modals and JST templates in their own files. In the app-template these belong in the `templates` and `jst` directories, respectively. When this isn't feasible, put modals in the page footer first, followed by inline javascript templates.
 * Prefer [HAML](http://haml.info/) over ERB for HTML templates
-* Prefer [SASS](http://sass-lang.com/) over LESS for CSS templates
+* Prefer [SCSS](http://sass-lang.com/) over LESS for CSS templates
+* [KSS](http://warpspire.com/kss/) for documenting and generating CSS styleguides
 
 
 ## Javascript
