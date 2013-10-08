@@ -1,9 +1,8 @@
-![Amnesty International logotype and logo banner](http://amnesty.ca/sites/default/files/ai-lockup-2c-banner.png)
 # Best Practices and Coding Conventions
 
-This repository provides development guidelines for Amnesty International digital projects.
+This repository provides development guidelines for digital projects.
 
-The contents of this repository are released under a [Creative Commons CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/deed.en_US) and were adapted from the [NPR Apps Best Practices Guide](https://github.com/nprapps/bestpractices).
+The contents of this repository are released under a [Creative Commons CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/deed.en_US) and were adapted from the [Amnesty International Best Practices Guide](https://github.com/AmnestyInternational/bestpractices), which in turn was adapted from the [NPR Apps Best Practices Guide](https://github.com/nprapps/bestpractices).
 
 ## Contents
 
