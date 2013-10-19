@@ -1,20 +1,32 @@
 # Best Practices and Coding Conventions
 
-This repository provides development guidelines for digital projects.
+This is an opinionated set of guidelines for making digital projects.
 
 The contents of this repository are released under a [Creative Commons CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/deed.en_US) and were adapted from the [Amnesty International Best Practices Guide](https://github.com/AmnestyInternational/bestpractices), which in turn was adapted from the [NPR Apps Best Practices Guide](https://github.com/nprapps/bestpractices).
 
 ## Contents
 
-1. [Repositories](#readmes)
-2. [Sites and Apps](#sites-and-apps)
-3. [HTML and CSS](#html-and-css)
-4. [Javascript](#javascript)
-5. [Version control](#version-control)
-6. [Ruby](#ruby)
-7. [Python](#python)
+1. Development 
+  1. [Environments](#environements)
+  1. [Repositories](#readmes)
+  5. [Version control](#version-control)
+  2. [Sites and Apps](#sites-and-apps)
+    3. Static vs. Dynamic
+  6. [Ruby](#ruby)
+  7. [Python](#python)
+1. Front-end
+  3. [HTML and CSS](#html-and-css)
+  4. [Javascript](#javascript)
+1. Back-end
 6. [Servers](#servers)
 7. [Databases](#databases)
+  1. Document Oriented 
+  2. Relational
+3. Documentation
+
+## Environements
+
+Use [Vagrant](http://www.vagrantup.com/) and [Puppet](http://puppetlabs.com/puppet/puppet-open-source) to create consistent VirtualBoxes.
 
 ## Repositories
 
@@ -66,7 +78,7 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * Multi-part IDs and class names should always proceed from more general to more specific. For example, ``electris-skinny`` is better than ``skinny-electris``.
 * Put modals and JST templates in their own files. In the app-template these belong in the `templates` and `jst` directories, respectively. When this isn't feasible, put modals in the page footer first, followed by inline javascript templates.
 * Prefer [HAML](http://haml.info/) over ERB for HTML templates
-* Prefer [SCSS](http://sass-lang.com/) over LESS for CSS templates
+* Prefer [SASS](http://sass-lang.com/) over LESS for CSS templates
 * [KSS](http://warpspire.com/kss/) for documenting and generating CSS styleguides
 
 
